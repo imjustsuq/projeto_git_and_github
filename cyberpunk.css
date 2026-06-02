@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 
-.cyberpunk {
+.cyberpunk body {
     background-color: #050a0f;
     color: #5a9e6f;
     /* color: #3a6070; */
-    background-image: url(assets/illustration-rain-futuristic-city.jpg);
+    background-image: url(assets/longing-cyberpunk-neon-lights-4k-ho-1366x768.jpg);
 }
 
 .menu_sobre {
