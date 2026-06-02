@@ -4,3 +4,17 @@
     box-sizing: border-box;
 }
 
+.pagina_gta5 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(82, 250, 4);
+    border-radius: none;
+    
+}
+.pagina_gta5 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: green;
+}
+.pagina_gta5{
+    background-color: black;
+}
