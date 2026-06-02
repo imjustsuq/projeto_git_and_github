@@ -4,17 +4,25 @@
     box-sizing: border-box;
 }
 
-.cyberpunk body {
+.cyberpunk {
     background-color: #050a0f;
     color: #5a9e6f;
     /* color: #3a6070; */
-    background-image: url(assets/longing-cyberpunk-neon-lights-4k-ho-1366x768.jpg);
+    background-image: url(assets/illustration-rain-futuristic-city.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .menu_sobre {
     color: #3a6070;
     position: fixed;
     background-color: #3a6070;
+}
+
+.menu_sobre a {
+    color: #c3d2d8;
+
 }
 
 h1 {
