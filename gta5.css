@@ -19,7 +19,9 @@
 
 }
 
-
+p{
+    text-align: center;
+}
 
 .pagina_gta5{
     background-color: white;
@@ -28,7 +30,8 @@
 .menu_paginas{
     position: fixed;
     width: 100%;
-    background: rgba(0, 0, 0, 0.8);
+    background: #B54C70;
+    background-color: transparent;
     backdrop-filter: blur(5px);
     padding: 15px 0;
     text-align: center;
@@ -37,10 +40,10 @@ nav a{
     color: white;
     text-decoration: none;
     margin: 0 20px;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 15px;
+    font-weight: bolder;
     text-transform: uppercase;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 nav a:hover{
     color: #00ff66;
