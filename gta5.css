@@ -1,7 +1,15 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.pagina_gta5{
+    background-color: white;
+    background-image: url(assets/backgroundgta5img.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
 }
 
 .pagina_gta5 h1{
@@ -10,7 +18,45 @@
     text-align: center;
     font-size: 40px;
 }
+
 .pagina_gta5 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(40, 139, 40);
+    font-size: 35px;
+}
+
+
+.pagina_gta5 p{
+    text-align: center;
+    width: 70%;
+    margin: 20px auto;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: rgba(0,0,0,0.5);
+    padding: 15px;
+    border-radius: 10px;
+}
+.menu_paginas{
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+}
+
+
+
+
+.pagina_gta5 h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(91, 201, 40);
+    text-align: center;
+    font-size: 40px;
+}
+
+.pagina_gta5 h2 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: rgb(40, 139, 40);
@@ -18,15 +64,17 @@
 
 }
 
-.pagina_gta5 p{
+.pagina_gta5 p {
     text-align: center;
+    width: fit-content;
+    margin: 0;
 }
-
-.pagina_gta5{
+.pagina_gta5 {
     background-color: white;
     background-image: url(assets/backgroundgta5img.png);
 }
-.menu_paginas{
+
+.menu_paginas {
     position: fixed;
     width: 100%;
     background: #B54C70;
@@ -36,16 +84,32 @@
     text-align: center;
     background-color: inherit 10;
 }
+
 nav a{
     color: white;
     text-decoration: none;
-    margin: 0 20px;
+    margin: 0 25px;
+
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    font-weight: bolder;
+    font-weight: bold;
+    letter-spacing: 2px;
     text-transform: uppercase;
-    transition: 0.5s;
+
+    padding: 10px 15px;
+    border-radius: 5px;
+
+    transition: 0.4s;
 }
+
 nav a:hover{
-    color: #00ff66;
-    text-shadow: 0 0 10px #00ff66;
+    background: #3afa00;
+    color: black;
+
+    box-shadow:
+        0 0 10px #27aa5b,
+        0 0 20px #27aa5b,
+        0 0 40px #27aa5b;
+
+    transform: scale(1.08);
 }
