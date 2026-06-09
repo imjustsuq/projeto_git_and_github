@@ -132,11 +132,21 @@ nav a{
     letter-spacing: 3px;
     text-transform: uppercase;
 }
-
-justify-items: center;
+.Jogabilidade{
+    justify-items: center;
     text-align: center;
     font-family: 'chinese rocks', serif;
     font-size: 30px;
     color: #fff;
     letter-spacing: 3px;
     text-transform: uppercase;
+}
+.paragrafo2{
+    justify-items: center;
+    text-align: center;
+    font-family: verdana;
+    font-size: 15px;
+    color: #fff;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
