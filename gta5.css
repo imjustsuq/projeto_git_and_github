@@ -112,7 +112,55 @@ nav a{
 
     transform: scale(1.08);
 }
-.botton_cyber:hover{
+.resident:hover{
+
+    background: rgb(255, 0, 0);
+    color: antiquewhite;
+
+    box-shadow:
+        0 0 10px #661818,
+        0 0 20px #661818,
+        0 0 40px #661818;
+
+    transform: scale(1.08);
+}
+.persona:hover{
+
+    background: #00eeff;
+    color: rgb(255, 255, 255);
+
+    box-shadow:
+        0 0 10px #00eeff,
+        0 0 20px #00eeff,
+        0 0 40px #00eeff;
+
+    transform: scale(1.08);
+}
+.read2:hover{
+
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+
+    box-shadow:
+        0 0 10px #000000,
+        0 0 20px #000000,
+        0 0 40px #000000;
+
+    transform: scale(1.08);
+}
+.cyber:hover{
+
+    background: yellow;
+    color: black;
+
+    box-shadow:
+        0 0 10px #00eeff,
+        0 0 20px #00eeff,
+        0 0 40px #00eeff;
+
+    transform: scale(1.08);
+}
+.cyber:hover{
 
     background: yellow;
     color: black;
@@ -125,7 +173,13 @@ nav a{
     transform: scale(1.08);
 }
 .Jogabilidade{
-    font-family: verdana;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(3, 255, 3);
+    
+}
+footer{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-items: center;
     
 }
