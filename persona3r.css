@@ -1,0 +1,19 @@
+.persona3r {
+    background-image: url(assets/persona3_background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: auto;
+    background-attachment: fixed;
+}
+
+h1{
+    color: rgb(48, 255, 76);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+}
+p{
+    color: aliceblue;
+    
+}

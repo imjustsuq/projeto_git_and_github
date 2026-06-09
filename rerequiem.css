@@ -1,0 +1,14 @@
+.rerequiem {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-image: url(assets/2.jpg);
+    text-align: center;
+}
+
+h1 {
+    color: rgb(255, 233, 224);
+}
+
+p{
+    color: aliceblue;
+}
