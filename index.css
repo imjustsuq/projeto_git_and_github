@@ -19,7 +19,12 @@
     color: rgb(50, 95, 112);
 }   
 
+.menu_index {
+    color: bisque;
+}
 .nav_cyber {
+    text-align: center;
+    padding: 15px 20px;
     color: rgb(42, 93, 117);
 }
 
