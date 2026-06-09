@@ -22,12 +22,20 @@
 .menu_index {
     color: bisque;
 }
+
 .nav_cyber {
     text-align: center;
-    padding: 15px 20px;
+    padding: 15px;
     color: rgb(42, 93, 117);
 }
 
 .nav_gta {
     color: rgb(47, 113, 129);
+    padding: 15px;
 }
+
+.nav_persona {
+    color: rgb(42, 93, 117);
+    padding: 15px;
+}
+
