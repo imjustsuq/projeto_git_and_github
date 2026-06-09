@@ -1,15 +1,19 @@
 .rerequiem {
-    background-image: url();
-    background-repeat: no-repeat;
-    background-image: url(assets/grace.jpg);
+    background-image: url(assets/requiem_background.jpg);
     background-size: cover;
-    
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: auto;
+    background-attachment: fixed;
 }
 
 h1 {
+    color: red;
+}
+h2 {
     color: rgb(255, 233, 224);
 }
-
 p{
     color: aliceblue;
 }
