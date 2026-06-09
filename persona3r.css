@@ -6,12 +6,32 @@
     text-align: center;
     margin: auto;
     background-attachment: fixed;
+    padding: 20px 40px;
+    display: flexbox;
+    flex-direction: row;
+    justify-content: left;
+    overflow: hidden;
+}
+
+.persona3r::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.288);
+    backdrop-filter: blur(0.3px);
+    z-index: 1;
+}
+.persona3r > * {
+    position: relative;
+    z-index: 2;
 }
 
 h1{
     color: rgb(48, 255, 76);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: italic;
+    font-size: 15px;
+
 }
 h2{
     color: rgb(48, 255, 76);
