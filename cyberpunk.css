@@ -1,81 +1,116 @@
+/* cyberpunk.css */
+
+/* RESET BÁSICO */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.cyberpunk {
-    background-color: #050a0f;
-    color: #5a9e6f;
-    /* color: #3a6070; */
+body.cyberpunk {
+    font-family: 'Orbitron', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0a0a0a;
+    color: #e0e0e0;
+    line-height: 1.6;
+    padding: 20px;
     background-image: url(assets/illustration-rain-futuristic-city.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
-.sobre_cyber {
-    color: rgb(120, 120, 163);
-    padding: 15px;
-    text-align: center;
+/* LINKS E NAVEGAÇÃO */
+a {
+    text-decoration: none;
+    color: #ff00ff;
+    transition: 0.3s ease;
 }
 
-.imagens_cyber {
-    color: rgb(120, 120, 163);
-    padding: 15px;
-    text-align: center;
+a:hover {
+    color: #00ffff;
+    text-shadow: 0 0 10px #00ffff, 0 0 20px #ff00ff;
+}
+
+/* MENU PRINCIPAL */
+.menu_cyberpunk, .menu_paginas {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.menu_cyberpunk a, .menu_paginas a {
+    padding: 10px 15px;
+    border: 1px solid #ff00ff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: rgba(255, 0, 255, 0.1);
+    box-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff inset;
+}
+
+/* TITULOS */
+h1, h2, h3 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #00ffff;
+    text-shadow: 0 0 5px #00ffff, 0 0 10px #ff00ff;
+    margin-bottom: 15px;
 }
 
 h1 {
-    
-    color: rgb(39, 26, 63);
+    font-size: 3rem;
+    text-align: center;
 }
 
 h2 {
-    color: rgb(19, 5, 46);
-    /* color: rgb(63, 114, 114); */
+    font-size: 2rem;
+    margin-top: 30px;
 }
 
 h3 {
-    color: rgb(39, 26, 63);
+    font-size: 1.5rem;
+    margin-top: 25px;
 }
 
+/* PARÁGRAFOS */
 p {
-    color: rgb(135, 129, 151);
+    margin-bottom: 15px;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #e0e0e0;
 }
 
-.nav_index {
-    text-align: center;
-    padding: 15px;
-    color: rgb(120, 120, 163);
+/* EFEITO DE NEON NOS PARÁGRAFOS */
+p::selection {
+    background: #ff00ff;
+    color: #000;
 }
 
-.nav_gta {
-    padding: 15px;
-    text-align: center;
-    color: rgb(120, 120, 163);
-    
+/* RESPONSIVIDADE */
+@media screen and (max-width: 768px) {
+    .menu_cyberpunk, .menu_paginas {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
 }
 
-.nav_persona {
-    color: rgb(120, 120, 163);
-    padding: 15px;
+/* ANIMAÇÃO SUTIL DE BRILHO */
+@keyframes neonGlow {
+    0%, 100% { text-shadow: 0 0 5px #00ffff, 0 0 10px #ff00ff; }
+    50% { text-shadow: 0 0 10px #00ffff, 0 0 20px #ff00ff; }
 }
 
-.nav_rdr2 {
-    color: rgb(120, 120, 163);
-    padding: 15px;
-}
-
-.nav_resident {
-    color: rgb(120, 120, 163);
-    padding: 15px;
-}
-
-.menu_cyberpunk{
-    text-align: center;   
-}
-
-.menu_paginas {
-    text-align: center;
+h1, h2, h3, .menu_cyberpunk a, .menu_paginas a {
+    animation: neonGlow 2s infinite alternate;
 }
