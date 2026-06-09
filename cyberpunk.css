@@ -27,6 +27,7 @@
 }
 
 h1 {
+    
     color: rgb(39, 26, 63);
 }
 
@@ -42,8 +43,6 @@ h3 {
 p {
     color: rgb(135, 129, 151);
 }
-
-
 
 .nav_index {
     text-align: center;
@@ -73,13 +72,10 @@ p {
     padding: 15px;
 }
 
-
-
-
-
-
-
 .menu_cyberpunk{
+    text-align: center;   
+}
+
+.menu_paginas {
     text-align: center;
-    
 }
