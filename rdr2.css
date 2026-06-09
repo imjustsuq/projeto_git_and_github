@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pagina_read{
+    background-image: url(assets/wallpaperread2.jpg);
+}
+.menu_paginas {
+    position: fixed;
+    width: 100%;
+    background: #B54C70;
+    background-color: transparent;
+    backdrop-filter: blur(0.5px);
+    padding: 15px 0;
+    text-align: center;
+    background-color: inherit 10;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 25px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    padding: 10px 15px;
+    border-radius: 5px;
+
+    transition: 0.4s;
+}
+
+.casa:hover{
+    background: #fa0000bb;
+    color: black;
+
+    box-shadow:
+        0 0 10px #000000,
+        0 0 20px rgba(255, 0, 0, 0.801)
+        0 0 40px red;
+
+    transform: scale(1.08);
+}
+.resident:hover{
+
+    background: rgb(255, 0, 0);
+    color: antiquewhite;
+
+    box-shadow:
+        0 0 10px #661818,
+        0 0 20px #661818,
+        0 0 40px #661818;
+
+    transform: scale(1.08);
+}
+.persona:hover{
+
+    background: #00eeff;
+    color: rgb(255, 255, 255);
+
+    box-shadow:
+        0 0 10px #00eeff,
+        0 0 20px #00eeff,
+        0 0 40px #00eeff;
+
+    transform: scale(1.08);
+}
+
+.cyber:hover{
+
+    background: yellow;
+    color: black;
+
+    box-shadow:
+        0 0 10px #00eeff,
+        0 0 20px #00eeff,
+        0 0 40px #00eeff;
+
+    transform: scale(1.08);
+}
+.cyber:hover{
+
+    background: yellow;
+    color: black;
+
+    box-shadow:
+        0 0 10px #00eeff,
+        0 0 20px #00eeff,
+        0 0 40px #00eeff;
+
+    transform: scale(1.08);
+}
+.gta5:hover{
+    background: rgb(255, 255, 255);
+    color: black;
+
+    box-shadow:
+        0 0 10px green,
+        0 0 20px green,
+        0 0 40px green;
+
+    transform: scale(1.08);
+}
+.h2inicio{
+    justify-items: center;
+    text-align: center;
+    font-family: 'chinese rocks', serif;
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.rdr2{
+    justify-items: center;
+    text-align: center;
+    font-family: 'chinese rocks', serif;
+    font-size: 50px;
+    color: #fff;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.paragrafo{
+    justify-items: center;
+    text-align: center;
+    font-family: verdana;
+    font-size: 15px;
+    color: #fff;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.Jogabilidade{
+    justify-items: center;
+    text-align: center;
+    font-family: 'chinese rocks', serif;
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.paragrafo2{
+    justify-items: center;
+    text-align: center;
+    font-family: verdana;
+    font-size: 15px;
+    color: #fff;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
