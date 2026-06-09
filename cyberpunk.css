@@ -27,8 +27,23 @@
 }
 
 h1 {
-    color: rgb(63, 114, 114);
+    color: rgb(39, 26, 63);
 }
+
+h2 {
+    color: rgb(19, 5, 46);
+    /* color: rgb(63, 114, 114); */
+}
+
+h3 {
+    color: rgb(39, 26, 63);
+}
+
+p {
+    color: rgb(135, 129, 151);
+}
+
+
 
 .nav_index {
     text-align: center;
