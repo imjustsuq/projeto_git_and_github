@@ -5,8 +5,29 @@
 }
 
 .index {
-    background-image: url(assets/cavalordr2.jpg);
+    background-image: url(assets/Resident-Evil-Veronica.webp);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /* background-size: cover; */
+    background-size: cover;
+}
+
+.index h1 {
+    color: rgb(78, 131, 131);
+}
+
+.index p {
+    color: rgb(50, 95, 112);
+}   
+
+.menu_index {
+    color: bisque;
+}
+.nav_cyber {
+    text-align: center;
+    padding: 15px 20px;
+    color: rgb(42, 93, 117);
+}
+
+.nav_gta {
+    color: rgb(47, 113, 129);
 }
