@@ -11,7 +11,7 @@
     text-align: center;
     margin: auto;
     background-attachment: fixed;
-    padding: 20px 40px;
+    padding: 30px 120px;
     display: block;
     flex-direction: row;
     justify-content: left;
@@ -46,15 +46,7 @@ h2{
     font-size: 30px;
 }
 
-h1::before, h2::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0,0,0,0.3);
-    backdrop-filter: blur(5px);
-    border-radius: 5px;
-    z-index: -1;
-}
+
 
 p{
     color: aliceblue;
