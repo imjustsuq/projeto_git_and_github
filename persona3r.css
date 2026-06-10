@@ -1,151 +1,135 @@
-.persona3r {
-    background-image: url(assets/persona3_background.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    text-align: center;
-    margin: auto;
-    background-attachment: fixed;
-    padding: 20px 40px;
-    display: flexbox;
-    flex-direction: row;
-    justify-content: left;
-    overflow: hidden;
+/* ===== RESET ===== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.persona3r::before {
-    content: "";
-    position: fixed;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.288);
-    backdrop-filter: blur(0.3px);
-    z-index: 1;
-}
-.persona3r > * {
-    position: relative;
-    z-index: 2;
-}
+/* ===== BODY ===== */
 
-h1{
-    color: rgb(48, 255, 76);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: italic;
-    font-size: 15px;
-
-}
-h2{
-    color: rgb(48, 255, 76);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: italic;
-}
-p{
-    color: aliceblue;
-    
-}
-.menu_paginas{
-    position: fixed;
-    width: 100%;
-    padding: 15px 0;
-    text-align: center;
-}
-
-
-
-.menu_paginas {
-    position: fixed;
-    width: 100%;
-    background: #B54C70;
-    background-color: transparent;
-    backdrop-filter: blur(0.5px);
-    padding: 15px 0;
-    text-align: center;
-    background-color: inherit 10;
-}
-
-nav a{
+body.persona3r {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(
+        135deg,
+        #00112b,
+        #003c8f,
+        #00aaff
+    );
     color: white;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+/* ===== MENU ===== */
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+nav a {
     text-decoration: none;
-    margin: 0 25px;
-
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
+    color: white;
+    background-color: rgba(255,255,255,0.1);
+    padding: 12px 20px;
+    border-radius: 10px;
+    transition: 0.3s;
     font-weight: bold;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-
-    padding: 10px 15px;
-    border-radius: 5px;
-
-    transition: 0.4s;
+    border: 1px solid rgba(255,255,255,0.2);
 }
 
-.casa:hover{
-    background: #fa0000bb;
-    color: black;
-
-    box-shadow:
-        0 0 10px #000000,
-        0 0 20px rgba(255, 0, 0, 0.801)
-        0 0 40px red;
-
-    transform: scale(1.08);
+nav a:hover {
+    background-color: #00c8ff;
+    color: #00112b;
+    transform: translateY(-3px);
+    box-shadow: 0 0 15px #00c8ff;
 }
-.resident:hover{
 
-    background: rgb(255, 0, 0);
-    color: antiquewhite;
+/* ===== TÍTULO ===== */
 
-    box-shadow:
-        0 0 10px #661818,
-        0 0 20px #661818,
-        0 0 40px #661818;
-
-    transform: scale(1.08);
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 40px;
+    color: #ffffff;
+    text-shadow:
+        0 0 10px #00c8ff,
+        0 0 20px #00c8ff,
+        0 0 30px #00c8ff;
 }
-.persona:hover{
 
-    background: #00eeff;
-    color: rgb(255, 255, 255);
+/* ===== SUBTÍTULOS ===== */
 
-    box-shadow:
-        0 0 10px #00eeff,
-        0 0 20px #00eeff,
-        0 0 40px #00eeff;
-
-    transform: scale(1.08);
+h2 {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    color: #8fdfff;
+    border-left: 5px solid #00c8ff;
+    padding-left: 12px;
 }
-.read2:hover{
 
-    background: rgb(255, 0, 0);
-    color: rgb(255, 255, 255);
+/* ===== PARÁGRAFOS ===== */
 
-    box-shadow:
-        0 0 10px #000000,
-        0 0 20px #000000,
-        0 0 40px #000000;
-
-    transform: scale(1.08);
+p {
+    line-height: 1.8;
+    font-size: 1.05rem;
+    margin-bottom: 20px;
+    text-align: justify;
+    background-color: rgba(0,0,0,0.25);
+    padding: 15px;
+    border-radius: 10px;
+    backdrop-filter: blur(4px);
 }
-.cyber:hover{
 
-    background: yellow;
-    color: black;
+/* ===== CONTAINER CENTRAL ===== */
 
-    box-shadow:
-        0 0 10px #00eeff,
-        0 0 20px #00eeff,
-        0 0 40px #00eeff;
-
-    transform: scale(1.08);
+body.persona3r {
+    max-width: 1200px;
+    margin: auto;
 }
-.gta5:hover{
-    background: rgb(255, 255, 255);
-    color: black;
 
-    box-shadow:
-        0 0 10px green,
-        0 0 20px green,
-        0 0 40px green;
+/* ===== SCROLLBAR ===== */
 
-    transform: scale(1.08);
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #00112b;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00c8ff;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #6be3ff;
+}
+
+/* ===== RESPONSIVO ===== */
+
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        width: 90%;
+        text-align: center;
+    }
+
+    p {
+        font-size: 1rem;
+    }
 }
