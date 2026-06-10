@@ -1,186 +1,179 @@
-* {
+/* ===== RESET ===== */
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.pagina_gta5{
-    background-color: white;
-    background-image: url(assets/backgroundgta5img.png);
+/* ===== BODY ===== */
+
+body.pagina_gta5{
+    font-family: Arial, Helvetica, sans-serif;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,0.8),
+        rgba(0,0,0,0.9)
+    ),
+    url("https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=1600");
+
     background-size: cover;
     background-position: center;
-    min-height: 100vh;
-}
+    background-attachment: fixed;
 
-.pagina_gta5 h1{
-    font-family: Georgia;
-    color: rgb(81, 255, 0);
-    text-align: center;
-    font-size: 40px;
-}
-
-.pagina_gta5 h2{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    color: rgb(0, 255, 0);
-    font-size: 35px;
-}
-
-
-.pagina_gta5 p{
-    text-align: center;
-    width: 70%;
-    margin: 20px auto;
     color: white;
-    font-size: 18px;
-    font-family: verdana;
-
-    background: rgba(0,0,0,0.5);
-    padding: 15px;
-    border-radius: 10px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
 }
+
+/* ===== MENU ===== */
+
 .menu_paginas{
-    position: fixed;
-    width: 100%;
-    padding: 15px 0;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+
+    background: rgba(0,0,0,0.85);
+
+    padding: 15px;
+    border-bottom: 3px solid #00ff66;
+
+    position: sticky;
+    top: 0;
+
+    z-index: 100;
 }
 
-.pagina_gta5 h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(81, 255, 0);
-    text-align: center;
-    font-size: 40px;
-}
-
-.pagina_gta5 h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    color: rgb(14, 235, 14);
-    font-size: 35px;
-
-}
-
-.pagina_gta5 p {
-    text-align: center;
-    width: fit-content;
-    margin: 0;
-}
-.pagina_gta5 {
-    background-color: white;
-    background-image: url(assets/backgroundgta5img.png);
-    scrollbar-width: auto;
-    
-}
-
-.menu_paginas {
-    position: fixed;
-    width: 100%;
-    background: #B54C70;
-    background-color: transparent;
-    backdrop-filter: blur(0.5px);
-    padding: 15px 0;
-    text-align: center;
-    background-color: inherit 10;
-}
-
-nav a{
-    color: white;
+.menu_paginas a{
     text-decoration: none;
-    margin: 0 25px;
+    color: white;
 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
+    padding: 10px 18px;
+
+    border: 2px solid #00ff66;
+    border-radius: 8px;
+
     font-weight: bold;
-    letter-spacing: 2px;
-    text-transform: uppercase;
 
-    padding: 10px 15px;
-    border-radius: 5px;
-
-    transition: 0.4s;
+    transition: .3s;
 }
 
-.casa:hover{
-    background: #fa0000bb;
+.menu_paginas a:hover{
+    background: #00ff66;
     color: black;
 
-    box-shadow:
-        0 0 10px #000000,
-        0 0 20px rgba(255, 0, 0, 0.801)
-        0 0 40px red;
+    transform: translateY(-3px);
 
-    transform: scale(1.08);
+    box-shadow: 0 0 15px #00ff66;
 }
-.resident:hover{
 
-    background: rgb(255, 0, 0);
-    color: antiquewhite;
+/* ===== TÍTULO ===== */
 
-    box-shadow:
-        0 0 10px #661818,
-        0 0 20px #661818,
-        0 0 40px #661818;
+h1{
+    text-align: center;
 
-    transform: scale(1.08);
+    font-size: 4rem;
+
+    color: #00ff66;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    text-shadow:
+        0 0 10px #00ff66,
+        0 0 20px #00ff66;
 }
-.persona:hover{
 
-    background: #00eeff;
-    color: rgb(255, 255, 255);
+/* ===== SUBTÍTULO ===== */
 
-    box-shadow:
-        0 0 10px #00eeff,
-        0 0 20px #00eeff,
-        0 0 40px #00eeff;
-
-    transform: scale(1.08);
-}
-.read2:hover{
-
-    background: rgb(255, 0, 0);
-    color: rgb(255, 255, 255);
-
-    box-shadow:
-        0 0 10px #000000,
-        0 0 20px #000000,
-        0 0 40px #000000;
-
-    transform: scale(1.08);
-}
-.cyber:hover{
-
-    background: yellow;
-    color: black;
-
-    box-shadow:
-        0 0 10px #00eeff,
-        0 0 20px #00eeff,
-        0 0 40px #00eeff;
-
-    transform: scale(1.08);
-}
-.cyber:hover{
-
-    background: yellow;
-    color: black;
-
-    box-shadow:
-        0 0 10px #00eeff,
-        0 0 20px #00eeff,
-        0 0 40px #00eeff;
-
-    transform: scale(1.08);
-}
 .Jogabilidade{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(3, 255, 3);
-    
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+    color: #00ff66;
+
+    border-left: 5px solid #00ff66;
+    padding-left: 15px;
 }
+
+/* ===== PARÁGRAFOS ===== */
+
+p{
+    background: rgba(0,0,0,0.65);
+
+    padding: 20px;
+
+    border-radius: 12px;
+
+    line-height: 1.8;
+    text-align: justify;
+
+    margin-bottom: 20px;
+
+    border: 1px solid rgba(0,255,102,.3);
+}
+
+p:hover{
+    transform: scale(1.01);
+    transition: .3s;
+}
+
+/* ===== FOOTER ===== */
+
 .roda-pe{
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    justify-items: center;
-    font-display: block;
-    border-radius: none;
+
+    margin-top: 50px;
+
+    padding: 20px;
+
+    border-top: 2px solid #00ff66;
+}
+
+.roda-pe p{
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* ===== SCROLLBAR ===== */
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: #111;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #00ff66;
+    border-radius: 10px;
+}
+
+/* ===== RESPONSIVO ===== */
+
+@media(max-width:768px){
+
+    h1{
+        font-size: 2.5rem;
+    }
+
+    .menu_paginas{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu_paginas a{
+        width: 90%;
+        text-align: center;
+    }
+
+    p{
+        font-size: .95rem;
+    }
 }
