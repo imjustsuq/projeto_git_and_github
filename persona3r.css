@@ -86,7 +86,7 @@ nav a {
     transition: 0.4s;
 }
 
-.nav_index:hover{
+.casa:hover{
     background: #fa0000bb;
     color: black;
 
@@ -97,7 +97,8 @@ nav a {
 
     transform: scale(1.08);
 }
-.nav_resident:hover{
+
+.resident:hover{
 
     background: rgb(255, 0, 0);
     color: antiquewhite;
@@ -109,6 +110,7 @@ nav a {
 
     transform: scale(1.08);
 }
+
 .persona:hover{
 
     background: #00eeff;
@@ -121,6 +123,7 @@ nav a {
 
     transform: scale(1.08);
 }
+
 .read2:hover{
 
     background: rgb(255, 0, 0);
