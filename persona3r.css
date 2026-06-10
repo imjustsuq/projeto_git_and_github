@@ -169,3 +169,220 @@ nav a {
 
     transform: scale(1.08);
 }
+
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== BODY ===== */
+body.pagina_persona3r {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    background:
+        linear-gradient(
+            rgba(0,0,0,0.6),
+            rgba(0,0,0,0.8)
+        ),
+        url("assets/persona3_background.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    color: white;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* ===== MENU DE NAVEGAÇÃO MODERNO ===== */
+.menu_paginas {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+
+    padding: 15px 20px;
+
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(12px);
+
+    border-bottom: 1px solid rgba(0, 192, 250, 0.25);
+
+    z-index: 1000;
+}
+
+/* Links do menu */
+.menu_paginas a {
+    color: white;
+    text-decoration: none;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    padding: 10px 18px;
+
+    border-radius: 8px;
+
+    transition: all 0.3s ease;
+}
+
+/* Hover padrão dos links */
+.menu_paginas a:hover {
+    background: rgba(0, 192, 250, 0.15);
+    color: #00c0fa;
+    transform: translateY(-2px);
+    box-shadow: 0 0 10px rgba(0, 192, 250, 0.3);
+}
+
+/* Página ativa */
+.persona {
+    background: rgba(0, 192, 250, 0.15);
+    border: 1px solid rgba(0, 192, 250, 0.4);
+    color: #00c0fa;
+}
+
+/* ===== CONTAINER PRINCIPAL: PERSONA3R ===== */
+.persona3r {
+    position: relative; /* necessário para o ::before */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 40px 60px; /* espaço extra por causa do menu fixo */
+    overflow: visible;
+}
+
+/* Camada de escurecimento com leve blur */
+.persona3r::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.3);
+    backdrop-filter: blur(2px);
+    z-index: 1;
+}
+
+.persona3r > * {
+    position: relative;
+    z-index: 2;
+}
+
+/* ===== TÍTULO ===== */
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 4rem;
+    color: #00c0fa;
+    text-align: center;
+    margin: 30px 0;
+
+    text-shadow:
+        0 0 10px #00c0fa,
+        0 0 20px #00c0fa;
+
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: rgba(0,0,0,0.3);
+    backdrop-filter: blur(5px);
+}
+
+/* ===== SUBTÍTULO ===== */
+.Jogabilidade {
+    margin: 40px 0 20px 0;
+    color: #00c0fa;
+    border-left: 5px solid #00c0fa;
+    padding-left: 15px;
+    font-size: 1.5rem;
+}
+
+/* ===== PARÁGRAFOS ===== */
+p {
+    background: rgba(0,0,0,0.65);
+    padding: 20px;
+    border-radius: 12px;
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 20px;
+    border: 1px solid rgba(0,192,250,0.3);
+    transition: transform 0.3s;
+}
+
+p:hover {
+    transform: scale(1.01);
+}
+
+/* ===== HOVER DOS LINKS DA PERSONA3R ===== */
+.casa:hover,
+.resident:hover,
+.persona:hover,
+.read2:hover,
+.cyber:hover,
+.gta5:hover {
+    background: #00c0fa;
+    color: #fff;
+    box-shadow: 0 0 15px #005c99, 0 0 30px #005c99, 0 0 60px #005c99;
+    transform: scale(1.08);
+}
+
+/* ===== FOOTER ===== */
+.roda-pe {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    border-top: 2px solid #00c0fa;
+}
+
+.roda-pe p {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* ===== SCROLLBAR ===== */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00c0fa;
+    border-radius: 10px;
+}
+
+/* ===== RESPONSIVO ===== */
+@media(max-width:768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .menu_paginas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu_paginas a {
+        width: 90%;
+        text-align: center;
+    }
+
+    p {
+        font-size: .95rem;
+    }
+}
