@@ -22,7 +22,7 @@
     color: #00ffff;
     text-align: center;
     font-size: 50px;
-    text-shadow: 0 0 10px #00ffff, 0 0 20px #ff00ff;
+    text-shadow: 0 0 10px #1c6969, 0 0 20px #ff00ff;
     margin-bottom: 20px;
 }
 
@@ -33,7 +33,7 @@
     font-size: 40px;
     margin-top: 30px;
     margin-bottom: 15px;
-    text-shadow: 0 0 10px #ff00ff, 0 0 20px #00ffff;
+    text-shadow: 0 0 10px #ff00ff, 0 0 20px #259494;
 }
 
 .cyberpunk h3 {
@@ -43,7 +43,7 @@
     font-size: 30px;
     margin-top: 25px;
     margin-bottom: 15px;
-    text-shadow: 0 0 5px #00ff00, 0 0 10px #00ffff;
+    text-shadow: 0 0 5px #00ff00, 0 0 10px #146969;
 }
 
 /* PARÁGRAFOS */
@@ -78,21 +78,21 @@
 
 /* LINKS DO MENU */
 .menu_cyberpunk a, .menu_paginas a {
-    color: #00ffff;
+    color: #1c7979;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 10px 15px;
     border-radius: 5px;
-    border: 1px solid #00ffff;
+    border: 1px solid #3f7474;
     transition: 0.4s;
 }
 
 /* HOVER NOS LINKS */
 .menu_cyberpunk a:hover, .menu_paginas a:hover {
-    background: #ff00ff;
+    background: #164a7a;
     color: black;
-    box-shadow: 0 0 10px #ff00ff, 0 0 20px #00ffff, 0 0 40px #ff00ff;
+    box-shadow: 0 0 10px #1e589b, 0 0 20px #00ffff, 0 0 40px #0d417c;
     transform: scale(1.1);
 }
 
