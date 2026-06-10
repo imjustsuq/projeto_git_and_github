@@ -97,6 +97,12 @@
     transform: scale(1.1);
 }
 
+p:hover{
+    transform: scale(1.01);
+    transition: .3s;
+}
+
+
 /* RESPONSIVIDADE */
 @media screen and (max-width: 768px) {
     .menu_cyberpunk, .menu_paginas {
