@@ -80,6 +80,7 @@ p::before {
     padding: 15px 0;
     text-align: center;
     background-color: inherit 10;
+    display: block;
 }
 
 nav a {
@@ -97,6 +98,7 @@ nav a {
     border-radius: 5px;
 
     transition: 0.4s;
+    display: block;
 }
 
 .casa:hover:hover{

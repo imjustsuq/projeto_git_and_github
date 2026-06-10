@@ -87,6 +87,7 @@
     border-radius: 5px;
     border: 1px solid #3f7474;
     transition: 0.4s;
+    display: block;
 }
 
 /* HOVER NOS LINKS */

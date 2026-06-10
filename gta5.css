@@ -59,7 +59,8 @@ body.pagina_gta5{
     font-weight: bold;
 
     transition: .3s;
-}
+    display: block;
+    position: relative;}
 
 .menu_paginas a:hover{
     background: #00ff66;

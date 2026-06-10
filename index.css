@@ -48,6 +48,7 @@
 
     z-index: 1000;
     flex-wrap: wrap;
+    display: block;
 }
 
 /* LINKS DO MENU */
@@ -66,6 +67,7 @@
     border-radius: 6px;
 
     transition: 0.4s;
+    display: block;
 }
 
 /* EFEITO HOVER */

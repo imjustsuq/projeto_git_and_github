@@ -42,6 +42,7 @@ body.pagina_read{
     padding: 15px;
     border-bottom: 3px solid #b22222;
     z-index: 100;
+    display: block;
 }
 
 .menu_paginas a{
@@ -55,6 +56,7 @@ body.pagina_read{
 
     transition: .3s;
     font-weight: bold;
+    display: block;
 }
 
 .menu_paginas a:hover{
