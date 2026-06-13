@@ -1,2 +1,2 @@
 # projeto_git_and_github
-go drinking
+Projeto sobre jogos, feito por 3 pessoas
