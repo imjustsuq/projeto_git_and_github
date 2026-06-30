@@ -30,7 +30,7 @@
    MENU SUPERIOR
 ========================== */
 .menu_index {
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;

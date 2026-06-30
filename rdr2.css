@@ -42,7 +42,7 @@ body.pagina_read{
     padding: 15px;
     border-bottom: 3px solid #b22222;
     z-index: 100;
-    display: block;
+    display: flex;
 }
 
 .menu_paginas a{
@@ -84,8 +84,7 @@ body.pagina_read{
 
 /* ===== SUBTÍTULOS ===== */
 
-.h2inicio,
-.Jogabilidade{
+.h2inicio, .Jogabilidade{
     margin-top: 30px;
     margin-bottom: 15px;
 
@@ -98,8 +97,7 @@ body.pagina_read{
 
 /* ===== PARÁGRAFOS ===== */
 
-.paragrafo,
-.paragrafo2{
+.paragrafo, .paragrafo2{
 
     background: rgba(0,0,0,0.65);
 
@@ -118,8 +116,7 @@ body.pagina_read{
 
 /* ===== ANIMAÇÃO ===== */
 
-.paragrafo:hover,
-.paragrafo2:hover{
+.paragrafo:hover, .paragrafo2:hover{
     transform: scale(1.01);
     transition: .3s;
 }
@@ -157,8 +154,7 @@ body.pagina_read{
         text-align: center;
     }
 
-    .paragrafo,
-    .paragrafo2{
+    .paragrafo, .paragrafo2{
         font-size: .95rem;
     }
 }
