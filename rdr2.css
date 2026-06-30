@@ -30,7 +30,7 @@ body.pagina_read{
 /* ===== MENU ===== */
 
 .menu_paginas{
-    display: flex;
+    display: block;
     justify-content: center;
     gap: 15px;
     flex-wrap: wrap;

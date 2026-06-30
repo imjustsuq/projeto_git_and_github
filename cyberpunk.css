@@ -62,7 +62,7 @@
 
 /* MENU PRINCIPAL */
 .menu_cyberpunk, .menu_paginas {
-    display: flex;
+    display: block;
     justify-content: center;
     gap: 20px;
     margin-bottom: 25px;

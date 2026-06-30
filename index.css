@@ -21,7 +21,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #e0e0e0;
 
-    display: flex;
+    display: block;
     flex-direction: column;
     align-items: center;
 }
@@ -30,7 +30,7 @@
    MENU SUPERIOR
 ========================== */
 .menu_index {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     gap: 15px;
